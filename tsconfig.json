@@ -1,0 +1,9 @@
+{
+  "extends": "./node_modules/@microsoft/powerapps-samples/pcf/tsconfig",
+  "compilerOptions": {
+    "outDir": "bin",
+    "target": "es5",
+    "module": "commonjs"
+  },
+  "include": ["index.ts"]
+}
