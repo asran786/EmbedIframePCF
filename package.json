@@ -1,0 +1,12 @@
+{
+  "name": "EmbedIframePCF",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "pac pcf build",
+    "start": "pac pcf start"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^4.2.4"
+  }
+}
