@@ -1,0 +1,13 @@
+<manifest ...>
+  <control namespace="VideoEmbed" constructor="EmbedIframePCF" version="1.0.0" control-type="standard">
+    <property name="embedCode" display-name-key="EmbedCode_Display" description-key="EmbedCode_Desc" type="SingleLine.Text" usage="bound" required="true" />
+    <resources>
+      <code path="index.ts" order="1" />
+    </resources>
+  </control>
+  <resources>
+    <string name="VideoEmbed_Display" default="Embed Iframe Video PCF" />
+    <string name="EmbedCode_Display" default="Embed Code" />
+    <string name="EmbedCode_Desc" default="Paste iframe embed code here." />
+  </resources>
+</manifest>
